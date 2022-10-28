@@ -1,0 +1,86 @@
+@import "estilo-nav";
+@import "mediaq";
+
+/* Operaciones */
+$ancho: 100%;
+$ancho2:50%;
+$black: rgb(0, 0, 0);
+$green: rgb(34, 148, 133);
+$espaciado: 5px;
+$espaciado2: 10px;
+$blanco: white;
+
+.container1 {
+    color: $blanco;
+    background-color: $black;
+    width: $ancho;
+    padding: ($espaciado*2);
+    height: 5px;
+    
+    
+}
+
+.container2 {
+    padding: ($espaciado*3);
+    background-color: $green;
+    width: ($ancho2*2);
+    padding: ($espaciado /2 );
+    height: 5px;
+}
+
+
+
+
+.imagendiagnovet {
+
+    width: 400px;
+    height: 150px;
+  }
+  
+  body {
+    margin: 0%;
+    padding: 0%;
+    padding-right: 0%;
+    
+  }
+  .sectioncarousel {
+    height: 600px;
+  }
+  .navbar-brand {
+    display: flex;
+    display: inline-block;
+    padding-left: 40px;
+    justify-content: flex-end;
+  }
+  #accordionFlushExample {
+    padding-left: 40px;
+  }
+  .section {
+    display: flex;
+    display: inline-flex;
+    text-align: center;
+  }
+  .footer_symbol {
+    padding: 10px;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+  }
+  footer {
+    text-align: center;
+    border-top: solid;
+    border-color: black;
+    background-color: #dae7e5;
+    margin: 5px;
+    margin-left: 5px;
+  }
+  .quienessomoslista {
+    list-style: none;
+  }
+  .flex-container {
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
